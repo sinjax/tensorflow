@@ -9,7 +9,7 @@ licenses(["notice"])  # Apache 2.0
 filegroup(
     name = "asset_files",
     srcs = glob(
-        ["**/*"],
+        ["**/*","lanenet/*"],
         exclude = ["BUILD"],
     ),
 )
